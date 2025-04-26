@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .mission {
+            background-color: #e9f7ef;
+            padding: 30px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about html and css project</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h1>
+        
+        <section class="mission">
+            <h2>Random text</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum ex eos architecto cupiditate commodi rem sit! Explicabo consequuntur iusto eligendi eius. Fugit soluta obcaecati sunt quaerat repellendus a animi nobis?</p>
+            <img src="images/pet2.jpg" alt="Our facility" class="about-image" style="width: 1000px;">
+        </section>
+
+        <section class="team">
+            <h2>Team</h2>
+            <div class="grid-system">
+                <div class="grid-item">
+                    <h3>Saliou Gueye</h3>
+                    <p>web developper</p>
+                </div>
+                <div class="grid-item">
+                    <h3>My freind 1</h3>
+                    <p>Truck Driver</p>
+                </div>
+                <div class="grid-item">
+                    <h3>My freind 2</h3>
+                    <p>Student</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="volunteer-form">
+            <h2>Subscribe</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="vol-name">Name:</label>
+                    <input type="text" id="vol-name" name="vol-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="vol-email">Email:</label>
+                    <input type="email" id="vol-email" name="vol-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="vol-skills">Interests:</label>
+                    <textarea id="vol-skills" name="vol-skills" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn">Apply</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>this is the footer of the page</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Internal CSS -->
+    <style>
+        .hero {
+            background-color: #f8f9fa;
+            padding: 50px 0;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            color: #2c3e50;
+            animation: fadeIn 2s;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Welcome to the html css project</h1>
+        <p>Practice the html and css</p>
+        <img src="images/banner.gif" alt="Happy pets animation" class="banner-gif">
+    </div>
+
+    <main class="container">
+        <section class="grid-system">
+            <div class="grid-item">
+                <h2>image 1</h2>
+                <img src="images/pet1.jpg" alt="" class="saliouImage">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet excepturi sint neque.</p>
+            </div>
+            <div class="grid-item">
+                <h2>image 2</h2>
+                <img src="images/pet2.jpg" alt="" class="saliouImage">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet excepturi sint neque.</p>
+            </div>
+            <div class="grid-item">
+                <h2>image 3</h2>
+                <img src="images/pet3.jpg" alt="" class="saliouImage">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet excepturi sint neque.</p>
+            </div>
+        </section>
+
+        <section class="adoption-table">
+            <h2>Countries</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Continent</th>
+                        <th>Capital</th>
+                        <th>bla bla</th>
+                        <th>bla bla</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Senegal</td>
+                        <td>Africa</td>
+                        <td>Dakar</td>
+                        <td>bla bla</td>
+                    </tr>
+                    <tr>
+                        <td>Mali</td>
+                        <td>Africa</td>
+                        <td>Bamako</td>
+                        <td>bla bla</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>Italy</td>
+                        <td>Europe</td>
+                        <td>Roma</td>
+                        <td>bla bla</td>
+                        
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="newsletter-form">
+            <h2>Subscribe to My Newsletter</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="pet-interest">Interested in:</label>
+                    <select id="pet-interest" name="pet-interest">
+                        <option value="dogs">Soccer</option>
+                        <option value="cats">Kick-Boxing</option>
+                        <option value="both">Basket-Ball</option>
+                        <option value="other">Other Sports</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn">Subscribe</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>this is the footer of the page.</p>
+    </footer>
+</body>
+</html>
